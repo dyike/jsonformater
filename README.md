@@ -19,7 +19,9 @@ sudo install ./bin/jsonformater_{best_for_you} /usr/local/bin/
 ## How to use with jf ?
 
 ### First
+
 You can use shell `jf -h` to look for some help.
+
 ```
 NAME:
    jf - Beautify json formater.
@@ -44,6 +46,7 @@ GLOBAL OPTIONS:
 ```
 
 ### Second
+
 When you know how to play(work) with 'jf', you can enjoy it!
 * curl command with `jf` [use pipline]
 ```bash
@@ -60,6 +63,7 @@ echo '{"name": "ityike", "email": "yuanfeng634@gmail.com"}' | jf
 ```
 
 * `jf` json data from file
+
 ```bash
 jf -i ./test.txt
 # result
@@ -70,6 +74,7 @@ jf -i ./test.txt
 ```
 
 * `jf` json data put into file
+
 ```bash 
 echo '{"name": "ityike", "email": "yuanfeng634@gmail.com"}' | jf -o ./test.json
 ```
@@ -81,3 +86,6 @@ jf -o ./test.json
 # EOF by CTRL+D(Unix/Linux) or CTRL+Z(Win)
 ```
 
+## Thanks!
+
+Thanks [cli](https://github.com/urfave/cli) -- a package for building command line apps in Go
