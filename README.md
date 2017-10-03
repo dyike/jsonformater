@@ -3,7 +3,7 @@
 ## How to install ?
 
 ```bash
-git clone 
+git clone git@github.com:dyike/jsonformater.git
 go get github.com/urfave/cli
 cd {project dir}
 go build -o jf 
